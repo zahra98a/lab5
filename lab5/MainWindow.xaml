@@ -1,0 +1,18 @@
+﻿<Window x:Class="lab5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+    Loaded="Waindo_Loaded">
+    <Grid>
+        <ListBox x:Name="lbxBands" HorizontalAlignment="Left" Height="292" Margin="34,75,0,0" VerticalAlignment="Top" Width="214" SelectionChanged="lbxBands_SelectionChanged"/>
+        <ListBox x:Name="lbxAlbum" HorizontalAlignment="Left" Height="154" Margin="304,213,0,0" VerticalAlignment="Top" Width="216"/>
+        <TextBlock x:Name="tbBandInfo" HorizontalAlignment="Left" Height="103" Margin="304,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" FontSize="20"/>
+        <Image x:Name="imgAlbum" HorizontalAlignment="Left" Height="154" Margin="560,213,0,0" VerticalAlignment="Top" Width="222"/>
+        <Image x:Name="imgBand" HorizontalAlignment="Left" Height="138" Margin="560,70,0,0" VerticalAlignment="Top" Width="222"/>
+
+    </Grid>
+</Window>
